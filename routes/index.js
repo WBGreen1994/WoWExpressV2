@@ -1,6 +1,9 @@
 var express = require('express');
 var router = express.Router();
 
+router.get('/addons', function(req, res, next) {
+  res.render('WoW_Addons', { current_path: 'addons' });
+});
 router.get('/classes', function(req, res, next) {
   res.render('WoW_Classes', { current_path: 'classes' });
 });

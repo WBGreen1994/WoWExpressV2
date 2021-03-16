@@ -15,9 +15,11 @@ html
         a.nav(href='/classes' class=(current_path === 'classes' ? 'active':'')) Races and Classes
       li
         i.bi-arrow-right-circle-fill(style='font-size: 2rem; color: #c9784c;')
-        a.nav(href='file:///C:/Users/wbgre/Documents/HTML/WoW_website/WoW_Addons/Addons.html') Addons and Macros
+        a.nav(href='/addons' class=(current_path === 'addons' ? 'active':'')
+          ) Addons and Macros
       li
         i.bi-arrow-right-circle-fill(style='font-size: 2rem; color: #c9784c;')
-        a.nav(href='file:///C:/Users/wbgre/Documents/HTML/WoW_website/WoW_Resources/WoW_Resources.html') Resources
+        a.nav(href='/resources' class=(current_path === 'resources' ? 'active':'')
+          ) Resources
     block content
 
