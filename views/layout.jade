@@ -1,0 +1,23 @@
+doctype html
+html
+  head
+    title= title
+    link(rel='stylesheet', href='/stylesheets/style.css')
+    link(rel='stylesheet', href='/stylesheets/homepage.css')
+  body
+    nav#home_nav
+    ul
+      li
+        i.bi-house-fill(style='font-size: 2rem; color: #c9784c;')
+        a.nav(href='/' class=(current_path === 'home' ? 'active':'')) Home
+      li
+        i.bi-arrow-right-circle-fill(style='font-size: 2rem; color: #c9784c;')
+        a.nav(href='/classes' class=(current_path === 'classes' ? 'active':'')) Races and Classes
+      li
+        i.bi-arrow-right-circle-fill(style='font-size: 2rem; color: #c9784c;')
+        a.nav(href='file:///C:/Users/wbgre/Documents/HTML/WoW_website/WoW_Addons/Addons.html') Addons and Macros
+      li
+        i.bi-arrow-right-circle-fill(style='font-size: 2rem; color: #c9784c;')
+        a.nav(href='file:///C:/Users/wbgre/Documents/HTML/WoW_website/WoW_Resources/WoW_Resources.html') Resources
+    block content
+

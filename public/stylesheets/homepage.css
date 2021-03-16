@@ -1,0 +1,114 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.0/font/bootstrap-icons.css");
+
+html {
+	background-image: url("https://bnetcmsus-a.akamaihd.net/cms/content_entry_media/FJPT5455KR5K1589912863345.jpg"); 
+ 	background-size: cover;
+ 	background-repeat: no-repeat;
+ 	display: inline-block;
+ 	height: 100%;
+ 	width: 100%;
+ 	
+}
+
+body {
+	display: inline-block;
+	height: 100%;
+	width: 100%;
+}
+
+#home_nav {
+	color: #c9784c;
+	font-size: 25px;
+	font-family: georgia;
+	font-weight: bold;
+
+}
+
+.title {
+	text-align: center;
+	font-weight: bolder;
+	font-size: 40px;
+	font-family: georgia; 
+	color: #1f2f31;
+	background-image: linear-gradient(#a35331,#ec9b65);
+	height: 425px;
+	width: auto;
+}
+
+.trial {
+	text-align: center;
+	font-size: 25px;
+	font-family: garamond;
+}
+
+a.nav:link {
+  color: #c9784c;
+}
+
+a.nav:visited {
+  color: #c9784c;
+}
+
+a.free_trial:link {
+	color: #602f22;
+}
+
+a.free_trial:visited {
+	color: #602f22;
+}
+
+.login {
+	font-size: 25px;
+	font-family: garamond;
+	
+}
+
+.races {
+	width: 100%;
+}
+
+th {
+	font-size: 30px;
+	font-family: georgia;
+	color: #390d0e;
+}
+
+td {
+	font-size: 25px;
+	color: #ffda35;
+	font-family: garamond;
+}
+
+.bio {
+	height: 250px;
+	width: 100%;
+	background-image: linear-gradient(#a35331,#ec9b65); 
+	display: inline-block;
+	text-align: center;
+}
+
+p{
+	font-size: 25px;
+	font-family: garamond;
+}
+
+h1 {
+	font-family: georgia;
+
+}
+
+h2 {
+	font-family: georgia;
+}
+
+.contact {
+	text-align: right;
+	padding-right: 15px;
+	color: #c9784c;
+	margin-top: 225px;
+}
+
+
+
+
+
